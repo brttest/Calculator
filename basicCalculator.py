@@ -1,2 +1,12 @@
 def calculator(select, a, b):
-    pass
+    if select == "*":
+        return a * b
+    elif select == "+":
+        return a + b 
+    elif select == "-":
+        return a - b 
+    elif select == "/":
+        return a / b
+
+
+calculator("*", 10, 5)
