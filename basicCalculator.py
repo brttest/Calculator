@@ -8,5 +8,5 @@ def calculator(select, a, b):
     elif select == "/":
         return a / b
 
-
-calculator("*", 10, 5)
+if __name__ == "__main__":
+    calculator("*", 10, 5)
