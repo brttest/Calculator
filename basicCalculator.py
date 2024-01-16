@@ -9,4 +9,7 @@ def calculator(select, a, b):
         return a / b
 
 if __name__ == "__main__":
+    print("Basic Calculator")
     calculator("*", 10, 5)
+
+print("Test kodu eklendi")  
